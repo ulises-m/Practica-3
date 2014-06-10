@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> PRACTICA # 3 </title>
+<P>
+PRACTICA #3
+<P/>
+
+<form action ="guardar.php"method = "GET">
+Nombre:<input type = "text"name = "Nombre" id = "Nombre"
+       size = "20" maxlength = "10"> <br/>
+
+
+<p>
+<form action ="guardar.php"method = "GET">
+Apellido Paterno:<input type = "text"name = "Apellido Paterno" id = "Apellido Paterno"
+       size = "20" maxlength = "10"> <br/>
+
+<form action ="guardar.php"method = "GET">
+Apellido Materno:<input type = "text"name = "Apellido Materno" id = "Apellido Materno"
+       size = "20" maxlength = "10"> <br/>
+</p>
+
+<p>
+<form action ="guardar.php"method = "GET">
+Foto<input type = "text"name = "Foto" id = "Foto"
+       size = "5" maxlength = "10"> 
+<input type="file" id="input" onchange="handleFiles(this.files)">
+</p>
+
+
+<p>
+Fecha de Nacimiento:
+</p>
+
+<p>
+<form>
+Dia:
+<select name = "Dia">
+<option value = "0">0</option>
+<option value = "1">1</option>
+<option value = "2">2</option>
+<option value = "3">3</option>
+<option value = "4">4</option>
+<option value = "5">5</option>
+<option value = "6">6</option>
+<option value = "7">7</option>
+<option value = "8">8</option>
+<option value = "9">9</option>
+<option value = "10">10</option>
+<option value = "11">11</option>
+<option value = "12">12</option>
+<option value = "13">13</option>
+<option value = "14">14</option>
+<option value = "15">15</option>
+<option value = "16">16</option>
+<option value = "17">17</option>
+<option value = "18">18</option>
+<option value = "19">19</option>
+<option value = "20">20</option>
+<option value = "21">21</option>
+<option value = "22">22</option>
+<option value = "23">23</option>
+<option value = "24">24</option>
+<option value = "25">25</option>
+<option value = "26">26</option>
+<option value = "27">27</option>
+<option value = "28">28</option>
+<option value = "29">29</option>
+<option value = "30">30</option>
+<option value = "31">31</option>
+</select>
+
+
+
+
+
+Mes:
+<select name = "Dia">
+<option value = "#">#</option>
+<option value = "Enero">Enero</option>
+<option value = "Febrero">Febrero</option>
+<option value = "Marzo">Marzo</option>
+<option value = "Abril">Abril</option>
+<option value = "Mayo">Mayo</option>
+<option value = "Junio">Junio</option>
+<option value = "Julio">Julio</option>
+<option value = "Agosto">Agosto</option>
+<option value = "Septiembre">Septiembre</option>
+<option value = "Octubre">Octubre</option>
+<option value = "Noviembre">Noviembre</option>
+<option value = "Diciembre"selected="selected">Diciembre</option>
+</select>
+
+
+<form>
+Año:
+<select name = "Año">
+<option value = "0000">0000</option>
+<option value = "1999">1999</option>
+<option value = "2000">2000</option>
+<option value = "2001">2001</option>
+<option value = "2002">2002</option>
+<option value = "2003">2003</option>
+<option value = "2004">2004</option>
+<option value = "2005">2005</option>
+<option value = "2006">2006</option>
+<option value = "2007">2007</option>
+<option value = "2008">2008</option>
+<option value = "2009">2009</option>
+<option value = "2010">2010</option>
+<option value = "2011">2011</option>
+<option value = "2012">2012</option>
+<option value = "2013">2013</option>
+<option value = "2014">2014</option>
+</select>
+</form>
+<p/>
+
+Sexo:
+
+<form>
+<input type="radio" name= "Sexo"
+   id="Sexo1" value ="1">
+<label for="Sexo1">Masculino </label> <br/> 
+ 
+<input type="radio" name= "Sexo"
+   id="Sexo1" value ="2">
+<label for="Sexo2">Femenino </label> <br/> 
+</form>
+
+<form>
+<imput type="checkbox" name="Sexo1"
+id="Sexo1" valve="1">
+<lavel for = "Sexo1"></label> <br/>
+
+<imput type="checkbox" name="Sexo2"
+id="Sexo2" valve="1">
+<lavel for = "Sexo2"></label> <br/>
+</form>
+
+
+<form action ="guardar.php"method = "GET">
+Codigo:<input type = "text"name = "Codigo" id = "Codigo"
+       size = "20" maxlength = "10"<br/> 
+
+<p>
+<form action ="guardar.php"method = "GET">
+Password:<input type = "text"name = "Password" id = "Password"
+       size = "20" maxlength = "10" </form> <br/>
+</p>
+
+
+
+
+<form action ="guardar.php"method = "GET">
+Domicilio:<input type = "text"name = "Domicilio" id = "Domicilio"
+       size = "20" maxlength = "10"<br/> 
+
+<p>
+<form action ="guardar.php"method = "GET">
+Correo Electronico:<input type = "text"name = "Correo Electronico" id = "Correo Electronico"
+       size = "20" maxlength = "10" </form> <br/>
+</p>
+
+<p>
+<form action ="guardar.php"method = "GET">
+Telefono:<input type = "text"name = "Telefono" id = "Telefono"
+       size = "20" maxlength = "10" </form> <br/>
+</p>
+
+
+<p>
+Interes en:
+<p/>
+
+<form>
+<input type="checkbox" name= "Deportes"
+   id="Interes1" value ="1">
+<label for="Interes1">Deportes </label> <br/> 
+ 
+<input type="checkbox" name= "Cultura"
+   id="Interes2" value ="2">
+<label for="Interes2">Cultura </label> <br/> 
+
+
+<input type="checkbox" name= "Ciencia"
+   id="Interes3" value ="3">
+<label for="Interes3">Ciencia </label> <br/> 
+
+
+<input type="checkbox" name= "Educacion"
+   id="Interes4" value ="4">
+<label for="Interes4">Educacion </label> <br/> 
+</form>
+
+<form>
+<imput type="checkbox" name="Interes1"
+id="Interes1" valve="1">
+<lavel for = "INteres1"></label> <br/>
+
+<imput type="checkbox" name="Interes2"
+id="Interes2" valve="2">
+<lavel for = "Interes2"></label> <br/>
+
+<imput type="checkbox" name="Interes3"
+id="Interes3" valve="3">
+<lavel for = "INteres3"></label> <br/>
+
+<imput type="checkbox" name="Interes4"
+id="Interes4" valve="4">
+<lavel for = "Interes4"></label> <br/>
+</form>
+
+
+<form>
+OBSERVACIONES <br/>
+<textarea name="OBSERVACIONES" id="OBSERVACIONES"
+rows="10" cols="40">
+Holaaa 
+</textarea>
+</form>
+
+
+<input type="button" name="boton"
+id="boton" value="Cambiar"
+onclik="Cambiar('Hola');">
+
+
+<input type="button" name="boton"
+id="boton" value="Enviar"
+onclik="Cambiar('Sonrie');">
+
+
+</html>
